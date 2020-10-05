@@ -34,9 +34,9 @@ class ScraperThing():
 
 
 
-
+link = 'https://rsbuddy.com/exchange/summary.json'
 scrapingObject = ScraperThing()
-scrapingObject.changeLink('https://rsbuddy.com/exchange/summary.json')
+scrapingObject.changeLink(link)
 thing = scrapingObject.scrape()
 scrapingObject.getHighBuyList(thing)
 scrapingObject.printList('1')
